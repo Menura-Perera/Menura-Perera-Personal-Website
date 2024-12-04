@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menura Perera</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/e7515c1b58.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/logo2.jpg" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#mywork">MY WORK</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Student</p>
+                    <h1>Hi, I'm <span>Menura</span><br>Perera From Sri Lanka</h1>
+                </div>
+            </div>
+        </div>
+        <!-- -----------about------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/pot1.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>My name is A.J.Menura Pramuditha Perera. . I am an ambitious undergraduate student pursuing a degree in Information System Engineering(ISE) And Web Designer For Beginers at SLIIT and the DP IT Campus. Balancing my academic journey with practical experience, I thrive in both classroom and professional settings. As a student, I am deeply passionate about Mathematic, Information Technology(IT), Some Business things and Coding designing things, consistently seeking opportunities to expand my knowledge and skills. As a worker, I bring dedication, adaptability, and a strong work ethic to every task, whether it’s through internships, part-time roles, or collaborative projects. My goal is to combine my academic foundation and real-world experience to make a meaningful impact in Project Management and Web Development. Outside of my studies and work, I enjoy Reading, playing Sports(Cricket and Swimming etc), Watch Movies And Stay stick with my parents, which keep me inspired and grounded.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Beginer</span><br>Designing Websites</li>
+                                <li><span>Video Editor</span><br>Editing any kind of Videos</li>
+                                <li><span>Presenter</span><br>Present or can give any kind of announcment</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Event Organizer</span><br>Organized Club Events In School as Vice-President</li>
+                                <li><span>Code And Product Designing And Maintaining</span><br>Did a Project and Created a Product,Coding and Maintaining.</li>
+                                <li><span>Photo Designer</span><br>Design photos for Some Friends</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2020/21</span><br>Odinary-Level Education in Isipathana College</li>
+                                <li><span>2023/24</span><br>Advanced Level in Isipathana College</li>
+                                <li><span>Undergraduate</span><br>Degree Of Information System Engineering(ISE) in SLIIT</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="Code">Front-End Language</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>
+                            <div class="progress-bar">
+                                <span style="width: 90%"></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>
+                            <div class="progress-bar">
+                                <span style="width: 85%"></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>
+                            <div class="progress-bar">
+                                <span style="width: 80%"></span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <!-- ----------------Services---------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Personal Website Design</h2>
+                    <p>I'm doing a course about web development and this
+                        is the first course task and now it will be a good to you from me for now.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-person-swimming"></i>
+                    <h2>Cricket-Balling And Swimming Coach</h2>
+                    <p>Now,I started to learn cricket and for now,
+                        I have a good feeling about the ballinng part.
+                        And also I'm a University-Level Swimmer and I think 
+                        I can teach something that I know.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                    <h2>Project Management</h2>
+                    <p>I did some projects and some big events with
+                        big companies in my School-Level and My University-Level.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ---------MY WORK--------- -->
+      <div id="mywork">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Work11.jpg">
+                    <div class="layer">
+                        <h3>Event Oragnizing And Presenting</h3>
+                        <p>We will Oragnizingthe events including media and 
+                            other parts. And also if you want something like announcments
+                            we will do that as well.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work31.jpg">
+                    <div class="layer">
+                        <h3>Project Management,Presenting And Oragnizing</h3>
+                        <p>We will introduce our project and also we will do
+                            the Oragnizing part and the presenting part as well.
+                            all together we will manage our projects.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Work 46.jpg">
+                    <div class="layer">
+                        <h3>Code And Product Designing And Maintaining
+                        </h3>
+                        <p>We will do create some prodcuts that creates using IT
+                            and we will do the coding,building,Maintaining parts
+                            with my Team members.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+      <!-- -------contact--------- -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ajmenura08@gmial.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>0763441778</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+
+                    </div>
+                    <a href="cv/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Menura Perera. Designed By Me When I Was A Student.</p>
+        </div>
+       </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+            
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwo5pSJM7Pfy9W9nflgj8bQ7mv4ngDe0545vzJ2MAPOGiTQvxmPn_oc4mTkHMNbda5q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
